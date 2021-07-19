@@ -1,0 +1,7 @@
+Cherry picking in git means a commit from one branch and apply it into another.
+
+This is contrast with other ways such as merge and rebase which normally applies many commits into another branch.
+
+Make sure you are on the branch you want to apply the commit and then use below command:
+
+          git cherry-pick <commit-hash>
